@@ -1,0 +1,23 @@
+Dotfiles:
+
+- Install:
+	1. Adium
+	2. Skype
+	3. Spotify
+
+	4. Firefox
+	5. Chrome
+	
+	6. Sublime Text 2
+	7. Command line tools for Xcode: https://developer.apple.com/downloads/index.action
+	
+	8. Git: http://git-scm.com/downloads
+	of git-friendly: https://github.com/jamiew/git-friendly
+
+	8. Homebrew: http://mxcl.github.com/homebrew/
+	9. RVM: https://rvm.io/rvm/install/
+	10. Nodejs: http://nodejs.org/
+
+	. Virtual Box (IE6, IE7, IE8) https://github.com/xdissent/ievms
+
+ 
