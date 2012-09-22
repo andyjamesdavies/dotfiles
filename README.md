@@ -1,13 +1,36 @@
 #Dotfiles - andyjamesdavies
 
-Based on Addy Osmani's dotfiles project: https://github.com/addyosmani/dotfiles I have chosen and added some of my own aliases.
-
 ##Installation
 
-Place these files in your home directory. Reload your shell and away you go.
+Place these files in your home directory. Reload your shell and away you go. **Note:** you may need to run install-dep.sh first if you don't have RVM installed.
 
-##Sensible OS X defaults
+In .aliases file you may need to change the path of your Photoshop.app depending on where it is located.
 
-When setting up a new Mac, you may want to set some sensible OS X defaults (make sure this file is executable):
+#Usage:
+
+You can run the following command to find out what aliases are available to you:
+	
+	alias
+
+An example command would be running the following to open Google Chrome:
+
+	chrome
+
+###New Mac Installs
+
+If you have a new mac, you may want to setup some sensible defaults by running:
 
     ./.osx
+
+###Manual Runs:
+	
+To install RVM, Homebrew, Git, Nodejs & NPM, run these in this order, you will need 'Command Line Tools for Xcode' before running these:
+
+	./install-dep.sh
+	./.brew
+
+###IE6, IE7, IE8, IE9 Virtual Machines
+
+You will need to install virtual box ( https://www.virtualbox.org/ ) before running this command.
+
+	./.ie-versions

@@ -1,0 +1,3 @@
+
+# Install IE versions 6, 7, 8 and 9, more info: https://github.com/xdissent/ievms
+curl -s https://raw.github.com/xdissent/ievms/master/ievms.sh | bash

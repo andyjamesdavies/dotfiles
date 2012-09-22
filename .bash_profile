@@ -1,5 +1,7 @@
+# Make sure paths are all setup
 export PATH=${PATH}
 
+# Set colours
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
@@ -9,3 +11,6 @@ for file in ~/.{extra,bash_prompt,exports,aliases,functions}; do
 	[ -r "$file" ] && source "$file"
 done
 unset file
+
+# init rvm
+source ~/.rvm/scripts/rvm

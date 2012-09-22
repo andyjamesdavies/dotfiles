@@ -1,0 +1,16 @@
+#ToDo:
+
+Figure out how to install the following from command line
+
+1. 'Command line tools for Xcode' from command line
+2. VirtualBox
+
+3. Sublime Text 2
+
+4. Google Chrome
+5. Firefox
+6. Opera
+
+7. Spotify
+8. Adium
+9. Skype
