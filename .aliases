@@ -7,6 +7,7 @@ alias chrome="open -a google\ chrome"
 alias f='open -a Finder'
 alias photoshop="open -a '/Applications/Adobe Photoshop CS5.1/Adobe Photoshop CS5.1.app'"
 alias spotify="open -a Spotify"
+alias txt="open -a TextEdit"
 
 #VirtualBox
 alias ie6="VBoxManage startvm 'IE6'"
