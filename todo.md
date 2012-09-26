@@ -16,50 +16,51 @@ Figure out how to install the following from command line
 9. Skype
 
 ##To command line install a pkg:
-	1. Manually mount .dmg file:
+	
+1. Manually mount .dmg file:
 
 	> hdid package.dmg
-	or, 
+or, 
 	> hdiutil attach package.dmg
-	or, 
+or, 
 	> hdiutil mount package.dmg
 
-	2. change into directory:
+2. change into directory:
 
 	> cd /Volumes/package/
 
-	3. install .pkg file:
+3. install .pkg file:
 
 	> sudo installer -verbose -pkg package.pkg -target /
-	or, 
+or, 
 	> sudo /usr/sbin/installer -verbose -pkg package.pkg -target /
 
-	4. unmounting dmg
+4. unmounting dmg
 	
 	> hdiutil detach /Volumes/package
-	or, 
+or, 
 	> hdiutil detach /Volumes/package -force
 
 ##To command line install a .app file:
 
-	1. Manually mount .dmg file:
+1. Manually mount .dmg file:
 
 	> hdid application.dmg
-	or, 
+or, 
 	> hdiutil attach application.dmg
-	or, 
+or, 
 	> hdiutil mount application.dmg
 
-	2. change into directory:
+2. change into directory:
 
 	> cd /Volumes/application/
 
-	3. copy .app file
+3. copy .app file
 
-	> sudo cp application.app /Applications
+	> sudo cp application.app /Applications/
 
-	3. unmounting dmg
+3. unmounting dmg
 	
 	> hdiutil detach /Volumes/package
-	or, 
+or, 
 	> hdiutil detach /Volumes/package -force
