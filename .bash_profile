@@ -1,6 +1,8 @@
 # Make sure paths are all setup
 export PATH=${PATH}
 
+export EDITOR="vim"
+
 # Set colours
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
